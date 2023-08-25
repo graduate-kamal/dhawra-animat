@@ -1,0 +1,689 @@
+body{
+    font-family: ;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.topBar{
+    background: #f5f5f5;
+    position: sticky;
+    top:0;
+}
+
+.topWrapper{
+    overflow:hidden;
+    
+    
+}
+.phone{
+    width: 250px;
+    float: left;
+    padding: 15px;
+    border-left: 1px solid #D3D3D3;
+}
+.phone i{
+    padding-right: 10px;
+    color:#FF5200;
+}
+
+.email{
+    width:400px;
+    float: left;
+    padding:15px;
+    border-left: 1px solid #D3D3D3;
+   
+}
+.email i{
+    padding-right: 10px;
+    color:#FF5200;
+}
+
+
+.socials{
+    width:210px;
+    float: right; 
+     
+}
+
+.socials i{
+    color:black;
+    padding: 15px;
+    border-left: 1px solid #dcdcdc;
+}
+
+
+
+
+.socials i:hover{
+    color:#FF5200;
+    transition: 0.5s;
+}
+
+
+
+
+.logo img{
+    width:100px;
+    float:left;
+    padding: 10px;
+    
+}
+.topbarMenu{
+    overflow: hidden;
+    
+}
+
+.menuNav{
+    width:745px;
+    float:right;
+    padding: 20px;
+    overflow: hidden;
+   
+    
+}
+.subMenu{
+    width:200px;
+    position: absolute;
+}
+
+
+.menuNav ul li{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    transition:0.5s;
+    display: inline;
+    
+}
+.menuNav ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+.menuNav a:hover{
+    color:#FF5200;
+}
+.slider1{
+    background-image: url(images/slide-1.jpg);
+  
+    background-position: center;
+   
+   
+}
+.slider1 h1{
+    text-transform:uppercase ;
+    font-size: 70px;
+    padding-top: 160px;
+    background-size: auto;
+    line-height: 80px;
+    color: white;
+    
+}
+.slider1 p{
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+.slider1 button a{
+    text-decoration: none;
+    
+    font-size: 30px;
+    text-transform: uppercase;
+    color:white;
+    
+}
+.slider1 button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 50px;
+    background-color: #FF5200;
+}
+.sliderNav1{
+    
+border:2px solid white;
+
+    
+display: inline;
+    
+width:20px;
+    
+height:20px;
+    
+padding-right: 20px;
+    
+border-radius: 100%;
+}
+.sliderNav1 button{
+   float:left;
+}
+.sliderNav2{
+    
+border:2px solid white;
+    
+display: inline;
+background: #FF5200;
+    
+width:20px;
+    
+padding-right: 20px;
+    
+height:20px;
+    
+border-radius: 100%;
+}
+.sliderNav2 button{
+   float:right;
+}
+.nav {
+    width: 100px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.nav:hover{
+    cursor: pointer;
+}
+
+.box1{
+    width:255px;
+    text-align: center;
+    margin-top: 60px;
+    padding: 25px 0px;
+    background-color: #D3D3D3;
+    float:left;
+    margin:10px;
+}
+.box1 i:hover{
+    color:white;
+    background: #FF5200;
+
+    
+}
+
+
+
+.box1 i{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color:#FF5200;
+}
+.box1 i:hover{
+    color:white;
+}
+.box1 h3{
+    padding: 25px;
+}
+.box1 h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: rgb(76, 64, 64);
+}
+.box1 a{
+    text-decoration: none;
+    color: #342721;
+}
+
+.aboutUs{
+    margin-top: 50px;
+    overflow:hidden;
+}
+
+.leftImage img{
+    width:500px;
+    float:left;
+    margin-top:50px;
+}
+.rightContent{
+    width:550px;
+    float:left;
+    padding-left: 40px;
+    margin-top:50px;
+    
+}
+.rightContent h1{
+    padding:30px;
+    font-size: 33px;
+}
+.u1{
+    display:inline;
+    float:left;
+    width:250px;
+    line-height: 20px;
+}
+.u2{
+    display:inline;
+    float:left;
+    width:250px;
+}
+.u1 li{
+    list-style: none;
+}
+.u2 li{
+    list-style: none;
+    overflow: hidden;
+}
+.rightContent{
+    padding-bottom: 30px;
+    overflow:hidden;
+}
+.rightContent h4{
+    padding-bottom: 40px;
+}
+
+.getStartBtn a{
+    text-decoration: none;
+    padding: 10px 35px;
+    color:white;
+    background-color: #FF5200;
+    font-size: 40px;
+    border-radius:5px;
+    float:left;
+    text-transform: capitalize;
+}
+.workWithOurTeam{
+    overflow:hidden;
+}
+.whyChooseUs{
+    background: url(images/customerNum\ .jpg);
+    background-position: center;
+    overflow:hidden;
+}
+.singleAcheive{
+    width:265px;
+    text-align: center;
+    color:white;
+    margin-right: 10px;
+    float:left;
+}
+.singleAcheive:last-child{
+    margin-right: 0px;
+}
+.singleAcheive i{
+    font-size: 60px;
+    padding: 50px 0px;
+    
+}
+.singleAcheive h1{
+    font-size: 100px;
+}
+.singleAcheive p{
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 50px 0px;
+}
+.moreUsWrapper {
+    margin-top: 50px;
+}
+.moreUp{
+    margin:auto;
+    width:500px;
+    text-align: center;
+}
+.moreUp h1{
+    position:relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.moreUp h1:after{
+    content:"";
+    position: absolute;
+    bottom:0;
+   
+    width:100px;
+    
+    height:"";
+    left:50%;
+    border: 2px solid #FF5200;
+    transform: translateX(-50%);
+    
+    
+}
+
+
+
+
+.moreUp p{
+    font-size: 20px;
+}
+.singleUs{
+    margin-top:50px;
+    width:255px;
+    float:left;
+    padding-right: 20px;
+}
+.singleUs img{
+    width:100%;
+}
+
+
+
+.moreUsWrapper {
+    margin-top: 50px;
+}
+.moreUp{
+    margin:auto;
+    width:500px;
+    text-align: center;
+}
+.moreUp h1{
+    position:relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.moreUp h1:after{
+    content:"";
+    position: absolute;
+    bottom:0;
+   
+    width:100px;
+    
+    height:"";
+    left:50%;
+    border: 2px solid #FF5200;
+    transform: translateX(-50%);
+    
+    
+}
+
+
+
+.moreFromUs{
+    overflow: hidden;
+    
+}
+
+.planUsWrapper {
+    margin: 50px 0px;
+    overflow:hidden;
+}
+.planUp{
+    margin:auto;
+    width:500px;
+    text-align: center;
+    
+    
+}
+.planUp h1{
+    position:relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.planUp h1:after{
+    content:"";
+    position: absolute;
+    bottom:0;
+   
+    width:100px;
+    
+    height:"";
+    left:50%;
+    border: 2px solid #FF5200;
+    transform: translateX(-50%);
+    
+    
+}
+
+.planUp p{
+    font-size: 20px;
+}
+.singlePlan{
+    width:340px;
+    margin-right: 15px;
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    padding: 5px;
+    float:left;
+
+}
+.singlePlan h2{
+    padding: 20px 0px;
+}
+.singlePlan h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.singlePlan p{
+    line-height: 40px;
+}
+.singlePlan p i{
+    color: #FF5200;
+}
+.singlePlan button a{
+    text-decoration: none;
+    color: #D3D3D3;
+    font-size: 25px;
+    
+   
+}
+.singlePlan button{
+    padding:20px;
+    text-transform: uppercase;
+    background-color: #FF5200;
+    border-color: #FF5200;
+    border-radius: 3px;
+    margin-top: 20px;
+
+    
+}
+.singlePlan button:hover{
+    background-color: black;
+    border-color: black;
+    
+}
+
+.checkOut{
+    overflow:hidden;
+    
+    margin-top: 100px;
+}
+.image img{
+    width:650px;
+    float: left;
+}
+.content{
+    width:600px;
+    float:left;
+    display: inline;
+    padding: 25px;
+    background-color: black;
+    color:white;
+}
+.contentUp h1{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.singleBox h1 a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.singleBox h1 a:hover{
+    color:#FF5200;
+}
+.singleBox h1{
+    color:#FF5200;
+}
+.content p{
+    line-height: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+}
+.singleBox {
+    width: 300px;
+    font-size: 17px;
+    padding: 10px 0px;
+    float:left;
+    display:inline-block;
+}
+.meetOurTeam{
+    background-color: #f5f5f5;
+    margin-top: 100px;
+}
+.ourTeam{
+    width:500px;
+    margin:auto;
+    text-align: center;
+   padding-bottom: 50px;
+}
+.ourTeam h1{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+.ourTeam p{
+    padding-top: 15px;
+}
+.ourTeam h1:after{
+    content: "";
+    border-bottom:3px solid#FF5200;
+    position: absolute;
+    width:100px;
+    bottom:0;
+    height: "";
+    left:50%;
+    transform: translateX(-50%);
+}
+.imagediv{
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+img{
+    width:260px;
+}
+.meetOurTeam{
+    overflow: hidden;
+}
+.btnSection{
+    margin:auto;
+    width:400px;
+    padding: 80px;
+    
+}
+.btnSection a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FF5200;
+    color: #f5f5f5;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.btnSection a:hover{
+    background:black;
+}
+
+
+.ourLatestNews{
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+.ourNews{
+    width:500px;
+    margin:auto;
+    text-align: center;
+   padding-bottom: 50px;
+}
+.ourNews h1{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+.ourNews p{
+    padding-top: 15px;
+}
+.ourNews h1:after{
+    content: "";
+    border-bottom:3px solid#FF5200;
+    position: absolute;
+    width:100px;
+    bottom:0;
+    height: "";
+    left:50%;
+    transform: translateX(-50%);
+}
+.imagediv2{
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+    width:355px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.ourLatestNews{
+    overflow: hidden;
+}
+.imagediv2 p{
+    padding: 15px 0px;
+    text-align: left;
+}
+.imagediv2 h1{
+    font-size: 20px;
+}
+.imagediv2 h1:hover{
+    color:#FF5200;
+}
+.imagediv2 button{
+    border: none;
+}
+.imagediv2 button a{
+    text-decoration: none;
+    color: #FF5200;
+   
+}
+.imagediv2 img{
+    width: 100%;
+}
+
+.projectImage{
+    width:340px;
+    height: 450px;
+    background: url(images/project-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 15px;
+    color: white;
+    float: left;
+    margin-right: 10px;
+}
+
+.projectImage p{
+    padding-top: 300px;
+    text-decoration: underline;
+}
+.projectImage a{
+    text-decoration: none;
+    color: white;
+    display: none;
+   
+}
+.projectImage h1{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.projectImage:hover.projectImage a{
+    display:block;
+    
+}
+
+
+
+
+
+
+
+
